@@ -1,4 +1,47 @@
-# DeepLabV3 Brain MRI Segmentation
+# Brain MRI Segmentation using Segment Anything Model (SAM)
+
+## Project Overview
+This project focuses on building a tumor segmentation pipeline using the **LGG MRI dataset** and the **Segment Anything Model (SAM)**. The main steps involve data processing, model training using the MONAI framework, and evaluating the model's performance.
+
+## 1. Data Collection
+- **Dataset**: Low-Grade Glioma (LGG) MRI images with tumor masks.
+- **Task**: Load the MRI image and mask file paths using Python.
+
+## 2. Data Processing
+- **Patient IDs**: Functions to extract patient IDs from file paths.
+- **Image Labeling**: Label MRI images based on the presence of a tumor.
+- **DataFrame Creation**: Combine images, masks, and labels into a unified DataFrame.
+
+## 3. Dataset Splitting
+- **Training & Testing Sets**: Split the dataset into 90% for training and 10% for testing.
+- **DataFrames**: Create separate DataFrames for the train and test sets.
+
+## 4. Data Visualization
+- **Train-Test Split Visualization**: Show a pie chart of the dataset split.
+- **Sample Images**: Display a few MRI images with their corresponding masks for reference.
+
+## 5. Model Setup
+- **Framework**: Use the MONAI framework to build the model for MRI image segmentation.
+- **Parameters**:
+  - Batch size
+  - Learning rate
+  - Number of epochs
+
+## 6. Model Training
+- **Optimizer**: Adam optimizer
+- **Loss Function**: Focal Loss
+- **Training Process**: Train the model while monitoring the loss and Intersection over Union (IoU) score.
+
+## 7. Training Results
+- **Loss Curve**: Visualize the training loss over epochs.
+- **IoU Curve**: Display the IoU score across the training epochs to evaluate segmentation performance.
+
+## Conclusion
+This project demonstrates an effective approach for segmenting brain tumors from MRI scans using deep learning models. By leveraging the Segment Anything Model (SAM) and the MONAI framework, we aim to achieve high-performance tumor segmentation.
+
+# ______________________________________________________________________________________________________________________________________
+
+# 2: DeepLabV3 Brain MRI Segmentation
 
 ## Overview
 This project implements MRI brain tumor segmentation using the DeepLabV3 model with a ResNet50 backbone. The approach uses deep learning to segment anomalies from MRI images.
