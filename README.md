@@ -40,6 +40,8 @@ This project focuses on building a tumor segmentation pipeline using the **LGG M
 - **Loss Curve**: Visualize the training loss over epochs.
 - **IoU Curve**: Display the IoU score across the training epochs to evaluate segmentation performance.
 
+![Testing Result]([images/segmentation_result.png](https://github.com/naveed-khan10/Brain-MRI-Segmentation-Using-SAM-and-DeepLabV3-/blob/main/SAM%20Results/Testing%20Result_1.png))
+
 ## Conclusion
 This project demonstrates an effective approach for segmenting brain tumors from MRI scans using deep learning models. By leveraging the Segment Anything Model (SAM) and the MONAI framework, we aim to achieve high-performance tumor segmentation.
 
