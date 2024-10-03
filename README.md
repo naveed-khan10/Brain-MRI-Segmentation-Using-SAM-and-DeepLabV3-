@@ -4,7 +4,7 @@
 This project focuses on building a tumor segmentation pipeline using the **LGG MRI dataset** and the **Segment Anything Model (SAM)**. The main steps involve data processing, model training using the MONAI framework, and evaluating the model's performance.
 
 ## Links
-- **Dataset**: [Low-Grade Glioma (LGG) MRI dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
+- **Dataset**: [(LGG) MRI dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
 - **Jupyter Notebook**: [Brain MRI Segmentation Using SAM](https://github.com/naveed-khan10/Brain-MRI-Segmentation-Using-SAM-and-DeepLabV3-/blob/main/Brain%20MRI%20Segmentation%20Using%20SAM.ipynb)
 - 
 ## 1. Data Collection
@@ -43,9 +43,6 @@ This project focuses on building a tumor segmentation pipeline using the **LGG M
 ## Conclusion
 This project demonstrates an effective approach for segmenting brain tumors from MRI scans using deep learning models. By leveraging the Segment Anything Model (SAM) and the MONAI framework, we aim to achieve high-performance tumor segmentation.
 
-## Links
-- **Dataset**: [Low-Grade Glioma (LGG) MRI dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
-- **Jupyter Notebook**: [Brain MRI Segmentation Using SAM](https://github.com/naveed-khan10/Brain-MRI-Segmentation-Using-SAM-and-DeepLabV3-/blob/main/Brain%20MRI%20Segmentation%20Using%20SAM.ipynb)
 
 
 # __________________________________________________________
@@ -53,15 +50,19 @@ This project demonstrates an effective approach for segmenting brain tumors from
 # 2: DeepLabV3 Brain MRI Segmentation
 
 ## Overview
-This project implements MRI brain tumor segmentation using the DeepLabV3 model with a ResNet50 backbone. The approach uses deep learning to segment anomalies from MRI images.
+This project implements MRI brain tumor segmentation using the **DeepLabV3** model with a **ResNet50 backbone**. The approach utilizes deep learning to segment anomalies from MRI images.
+
+## Links
+- **Dataset**: [(LGG) MRI dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
+- **Jupyter Notebook**: [Brain MRI Segmentation Using DeepLabV3](https://github.com/naveed-khan10/Brain-MRI-Segmentation-Using-SAM-and-DeepLabV3-/blob/main/Brain%20MRI%20Segmentation%20Using%20DeepLabV3%20.ipynb)
 
 ## Steps Involved
 
 ### 1. Library Imports
-Essential libraries such as **NumPy**, **Pandas**, **OpenCV**, **PyTorch**, and **torchvision models** are imported. These libraries handle image processing, data manipulation, and deep learning model implementation.
+Essential libraries such as NumPy, Pandas, OpenCV, PyTorch, and torchvision models are imported. These libraries handle image processing, data manipulation, and deep learning model implementation.
 
 ### 2. Data Loading and Preprocessing
-MRI images and their corresponding masks are loaded and preprocessed using **OpenCV**. The images are resized to 128x128 and normalized to fit the input requirements of the deep learning model. The masks are binarized to represent brain anomalies.
+MRI images and their corresponding masks are loaded and preprocessed using OpenCV. The images are resized to 128x128 and normalized to fit the input requirements of the deep learning model. The masks are binarized to represent brain anomalies.
 
 ### 3. Dataset Splitting
 The dataset is split into three sets:
@@ -76,10 +77,10 @@ The **DeepLabV3** model is defined with a **ResNet50** backbone. The output laye
 A custom **PyTorch Dataset** class is used to load the MRI images and masks, with transformations applied for normalization. This ensures the data is in the correct format for model input.
 
 ### 6. Data Loaders
-DataLoader instances for the training, validation, and test datasets are set up to feed the data in batches to the model during training and evaluation.
+**DataLoader** instances for the training, validation, and test datasets are set up to feed the data in batches to the model during training and evaluation.
 
 ### 7. Model Training
-The model is trained using **Binary Cross-Entropy Loss (BCEWithLogitsLoss)** and the **Adam** optimizer. Accuracy is computed by thresholding the model output at 0.5 for binary classification. The training loop reports both training and validation loss and accuracy after each epoch.
+The model is trained using **Binary Cross-Entropy Loss (BCEWithLogitsLoss)** and the **Adam optimizer**. Accuracy is computed by thresholding the model output at 0.5 for binary classification. The training loop reports both training and validation loss and accuracy after each epoch.
 
 ### 8. Results
 After training, the model achieves high segmentation accuracy:
@@ -95,3 +96,4 @@ The model successfully segments brain anomalies in MRI scans.
 - OpenCV
 - PyTorch
 - Torchvision
+
