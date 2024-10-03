@@ -1,4 +1,4 @@
-# Brain MRI Segmentation using Segment Anything Model (SAM)
+# 1: Brain MRI Segmentation using Segment Anything Model (SAM)
 
 ## Project Overview
 This project focuses on building a tumor segmentation pipeline using the **LGG MRI dataset** and the **Segment Anything Model (SAM)**. The main steps involve data processing, model training using the MONAI framework, and evaluating the model's performance.
@@ -39,7 +39,7 @@ This project focuses on building a tumor segmentation pipeline using the **LGG M
 ## Conclusion
 This project demonstrates an effective approach for segmenting brain tumors from MRI scans using deep learning models. By leveraging the Segment Anything Model (SAM) and the MONAI framework, we aim to achieve high-performance tumor segmentation.
 
-# ______________________________________________________________________________________________________________________________________
+# __________________________________________________________
 
 # 2: DeepLabV3 Brain MRI Segmentation
 
