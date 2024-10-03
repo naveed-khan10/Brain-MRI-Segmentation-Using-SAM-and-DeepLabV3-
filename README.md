@@ -1,7 +1,7 @@
 # 1: Brain MRI Segmentation using Segment Anything Model (SAM)
 
 ## Project Overview
-This project focuses on building a tumor segmentation pipeline using the **LGG MRI dataset** and the **Segment Anything Model (SAM)**. The main steps involve data processing, model training using the MONAI framework, and evaluating the model's performance.
+This project focuses on building a  MRI brain tumor segmentation pipeline using the **LGG MRI dataset** and the **Segment Anything Model (SAM)**. The main steps involve data processing, model training using the MONAI framework, and evaluating the model's performance.
 
 ## Links
 - **Dataset**: [(LGG) MRI dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
