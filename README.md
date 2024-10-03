@@ -3,8 +3,12 @@
 ## Project Overview
 This project focuses on building a tumor segmentation pipeline using the **LGG MRI dataset** and the **Segment Anything Model (SAM)**. The main steps involve data processing, model training using the MONAI framework, and evaluating the model's performance.
 
+## Links
+- **Dataset**: [Low-Grade Glioma (LGG) MRI dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
+- **Jupyter Notebook**: [Brain MRI Segmentation Using SAM](https://github.com/naveed-khan10/Brain-MRI-Segmentation-Using-SAM-and-DeepLabV3-/blob/main/Brain%20MRI%20Segmentation%20Using%20SAM.ipynb)
+- 
 ## 1. Data Collection
-- **Dataset**: Low-Grade Glioma (LGG) MRI images with tumor masks.
+- **Dataset**: [Low-Grade Glioma (LGG) MRI dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation) containing MRI images with tumor masks.
 - **Task**: Load the MRI image and mask file paths using Python.
 
 ## 2. Data Processing
@@ -38,6 +42,11 @@ This project focuses on building a tumor segmentation pipeline using the **LGG M
 
 ## Conclusion
 This project demonstrates an effective approach for segmenting brain tumors from MRI scans using deep learning models. By leveraging the Segment Anything Model (SAM) and the MONAI framework, we aim to achieve high-performance tumor segmentation.
+
+## Links
+- **Dataset**: [Low-Grade Glioma (LGG) MRI dataset](https://www.kaggle.com/datasets/mateuszbuda/lgg-mri-segmentation)
+- **Jupyter Notebook**: [Brain MRI Segmentation Using SAM](https://github.com/naveed-khan10/Brain-MRI-Segmentation-Using-SAM-and-DeepLabV3-/blob/main/Brain%20MRI%20Segmentation%20Using%20SAM.ipynb)
+
 
 # __________________________________________________________
 
